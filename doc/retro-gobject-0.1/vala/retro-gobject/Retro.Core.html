@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Retro.Core &ndash; retro-gobject &ndash; Vala Binding Reference</title>
+    <link href="../style.css" rel="stylesheet" type="text/css"/><script src="../scripts.js" type="text/javascript">
+    </script>
+  </head>
+  <body>
+    <div class="site_header">Retro.Core &ndash; retro-gobject Reference Manual</div>
+    <div class="site_body">
+      <div class="site_navigation">
+        <ul class="navi_main">
+          <li class="package_index"><a href="../index.html">Packages</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="package"><a href="index.htm">retro-gobject</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="namespace"><a href="Retro.html">Retro</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="class">Core</li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="property"><a href="Retro.Core.api_version.html">api_version</a></li>
+          <li class="property"><a href="Retro.Core.audio_interface.html">audio_interface</a></li>
+          <li class="property"><a href="Retro.Core.av_info.html">av_info</a></li>
+          <li class="property"><a href="Retro.Core.content_directory.html">content_directory</a></li>
+          <li class="property"><a href="Retro.Core.copy.html">copy</a></li>
+          <li class="property"><a href="Retro.Core.disk_control_interface.html">disk_control_interface</a></li>
+          <li class="property"><a href="Retro.Core.file_name.html">file_name</a></li>
+          <li class="property"><a href="Retro.Core.game_loaded.html">game_loaded</a></li>
+          <li class="property"><a href="Retro.Core.input_interface.html">input_interface</a></li>
+          <li class="property"><a href="Retro.Core.libretro_path.html">libretro_path</a></li>
+          <li class="property"><a href="Retro.Core.log_interface.html">log_interface</a></li>
+          <li class="property"><a href="Retro.Core.performance_level.html">performance_level</a></li>
+          <li class="property"><a href="Retro.Core.region.html">region</a></li>
+          <li class="property"><a href="Retro.Core.save_directory.html">save_directory</a></li>
+          <li class="property"><a href="Retro.Core.support_no_game.html">support_no_game</a></li>
+          <li class="property"><a href="Retro.Core.system_directory.html">system_directory</a></li>
+          <li class="property"><a href="Retro.Core.system_info.html">system_info</a></li>
+          <li class="property"><a href="Retro.Core.variables_interface.html">variables_interface</a></li>
+          <li class="property"><a href="Retro.Core.video_interface.html">video_interface</a></li>
+          <li class="creation_method"><a href="Retro.Core.Core.html">Core</a></li>
+          <li class="method"><a href="Retro.Core.cheat_reset.html">cheat_reset</a></li>
+          <li class="method"><a href="Retro.Core.cheat_set.html">cheat_set</a></li>
+          <li class="method"><a href="Retro.Core.deinit.html">deinit</a></li>
+          <li class="method"><a href="Retro.Core.get_memory.html">get_memory</a></li>
+          <li class="method"><a href="Retro.Core.init.html">init</a></li>
+          <li class="method"><a href="Retro.Core.load_game.html">load_game</a></li>
+          <li class="method"><a href="Retro.Core.load_game_special.html">load_game_special</a></li>
+          <li class="method"><a href="Retro.Core.reset.html">reset</a></li>
+          <li class="method"><a href="Retro.Core.run.html">run</a></li>
+          <li class="method"><a href="Retro.Core.serialize.html">serialize</a></li>
+          <li class="method"><a href="Retro.Core.serialize_size.html">serialize_size</a></li>
+          <li class="method"><a href="Retro.Core.set_controller_port_device.html">set_controller_port_device</a></li>
+          <li class="method"><a href="Retro.Core.unload_game.html">unload_game</a></li>
+          <li class="method"><a href="Retro.Core.unserialize.html">unserialize</a></li>
+          <li class="signal"><a href="Retro.Core.message.html">message</a></li>
+          <li class="signal"><a href="Retro.Core.shutdown.html">shutdown</a></li>
+        </ul>
+      </div>
+      <div class="site_content">
+        <h1 class="main_title">Core</h1>
+        <hr class="main_hr"/>
+        <h2 class="main_title">Object Hierarchy:</h2>
+        <img class="main_diagram" usemap="#Retro.Core" alt="Object hierarchy for Core" src="img/Retro.Core.png"/>
+
+      <map id="Retro.Core" name="Retro.Core">
+<area shape="rect" id="node1" href="Retro.Core.html" title="Retro.Core" alt="" coords="11,101,113,149"/>
+</map>
+
+        <h2 class="main_title">Description:</h2>
+        <div class="main_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">class</span> <b><span class="class">Core</span></b> : <span class="main_type"><span class="class">Object</span></span>
+        </div>
+        <div class="description">
+          <p>Handles a Libretro module.</p>
+        </div><br/>
+        <div class="namespace_note"><b>Namespace:</b> <a href="Retro.html">Retro</a>
+        </div>
+        <div class="package_note"><b>Package:</b> <a href="index.htm">retro-gobject</a>
+        </div>
+        <h2 class="main_title">Content:</h2>
+        <h3 class="main_title">Properties:</h3>
+        <ul class="navi_inline">
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="struct">uint</span></span> <b><a href="Retro.Core.api_version.html" class="property">api_version</a></b> { <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The version of Libretro used by the module.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_type"><a href="Retro.SystemInfo.html" class="struct">SystemInfo</a></span> <b><a href="Retro.Core.system_info.html" class="property">system_info</a></b> { <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The system informations.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_type"><a href="Retro.Region.html" class="enum">Region</a></span> <b><a href="Retro.Core.region.html" class="property">region</a></b> { <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The region of the loaded game.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="struct">bool</span></span> <b><a href="Retro.Core.copy.html" class="property">copy</a></b> { <span class="main_keyword">construct</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Whether the module have been copied or not.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="class">string</span></span> <b><a href="Retro.Core.file_name.html" class="property">file_name</a></b> { <span class="main_keyword">construct</span>; <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The file name of the loaded module.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="class">string</span></span> <b><a href="Retro.Core.system_directory.html" class="property">system_directory</a></b> { <span class="main_keyword">set</span>; <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The directory the core will use to look for for additional data.
+              </span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="class">string</span></span> <b><a href="Retro.Core.libretro_path.html" class="property">libretro_path</a></b> { <span class="main_keyword">set</span>; <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The absolute path to the source module file.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="class">string</span></span> <b><a href="Retro.Core.content_directory.html" class="property">content_directory</a></b> { <span class="main_keyword">set</span>; <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The directory the core will use to look for for additional assets.
+              </span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="class">string</span></span> <b><a href="Retro.Core.save_directory.html" class="property">save_directory</a></b> { <span class="main_keyword">set</span>; <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The directory the core will use to save user data.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="struct">bool</span></span> <b><a href="Retro.Core.game_loaded.html" class="property">game_loaded</a></b> { <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Whether or not the a game is loaded.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="struct">bool</span></span> <b><a href="Retro.Core.support_no_game.html" class="property">support_no_game</a></b> { <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Whether or not the core supports games.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_type"><a href="Retro.PerfLevel.html" class="enum">PerfLevel</a></span> <b><a href="Retro.Core.performance_level.html" class="property">performance_level</a></b> { <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The level of performance requiered by the core to run correctly.
+              </span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_type"><a href="Retro.AvInfo.html" class="class">AvInfo</a></span> <b><a href="Retro.Core.av_info.html" class="property">av_info</a></b> { <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Information on audio and video geometry and timings.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_type"><a href="Retro.DiskControl.html" class="class">DiskControl</a></span> <b><a href="Retro.Core.disk_control_interface.html" class="property">disk_control_interface</a></b> { <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The disk controlling interface.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_type"><a href="Retro.Video.html" class="interface">Video</a></span> <b><a href="Retro.Core.video_interface.html" class="property">video_interface</a></b> { <span class="main_keyword">construct</span> <span class="main_keyword">set</span>; <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The video interface.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_type"><a href="Retro.Audio.html" class="interface">Audio</a></span> <b><a href="Retro.Core.audio_interface.html" class="property">audio_interface</a></b> { <span class="main_keyword">construct</span> <span class="main_keyword">set</span>; <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The audio interface.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_type"><a href="Retro.Input.html" class="interface">Input</a></span> <b><a href="Retro.Core.input_interface.html" class="property">input_interface</a></b> { <span class="main_keyword">construct</span> <span class="main_keyword">set</span>; <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The input interface.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_type"><a href="Retro.Variables.html" class="interface">Variables</a></span> <b><a href="Retro.Core.variables_interface.html" class="property">variables_interface</a></b> { <span class="main_keyword">construct</span> <span class="main_keyword">set</span>; <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The variables interface.</span>
+            </div></li>
+          <li class="property"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_type"><a href="Retro.Log.html" class="interface">Log</a></span> <b><a href="Retro.Core.log_interface.html" class="property">log_interface</a></b> { <span class="main_keyword">set</span>; <span class="main_keyword">get</span>; }
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">The logging interface.</span>
+            </div></li>
+        </ul>
+        <h3 class="main_title">Creation methods:</h3>
+        <ul class="navi_inline">
+          <li class="creation_method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <b><a href="Retro.Core.Core.html" class="creation_method">Core</a></b> (<span class="main_basic_type"><span class="class">string</span></span> file_name, <span class="main_basic_type"><span class="struct">bool</span></span> copy_module = <span class="main_optional_parameter">false</span>)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Creates a Core from the file name of a Libretro implementation.</span>
+            </div></li>
+        </ul>
+        <h3 class="main_title">Methods:</h3>
+        <ul class="navi_inline">
+          <li class="method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">void</span> <b><a href="Retro.Core.init.html" class="method">init</a></b> ()
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Initializes the module.</span>
+            </div></li>
+          <li class="method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">void</span> <b><a href="Retro.Core.deinit.html" class="method">deinit</a></b> ()
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Deinitializes the module.</span>
+            </div></li>
+          <li class="method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">void</span> <b><a href="Retro.Core.set_controller_port_device.html" class="method">set_controller_port_device</a></b> (<span class="main_basic_type"><span class="struct">uint</span></span> port, <span class="main_type"><a href="Retro.DeviceType.html" class="enum">DeviceType</a></span> device)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Sets device to be used for player 'port'.</span>
+            </div></li>
+          <li class="method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">void</span> <b><a href="Retro.Core.reset.html" class="method">reset</a></b> ()
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Resets the current game.</span>
+            </div></li>
+          <li class="method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">void</span> <b><a href="Retro.Core.run.html" class="method">run</a></b> ()
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Runs the game for one video frame.</span>
+            </div></li>
+          <li class="method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="struct">size_t</span></span> <b><a href="Retro.Core.serialize_size.html" class="method">serialize_size</a></b> ()
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Returns the amount of data the implementation requires to serialize 
+                the internal state.</span>
+            </div></li>
+          <li class="method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="struct">bool</span></span> <b><a href="Retro.Core.serialize.html" class="method">serialize</a></b> (<span class="main_keyword">out</span> <span class="main_basic_type"><span class="struct">uint8</span></span>[] data)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Serializes the internal state.</span>
+            </div></li>
+          <li class="method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="struct">bool</span></span> <b><a href="Retro.Core.unserialize.html" class="method">unserialize</a></b> (<span class="main_basic_type"><span class="struct">uint8</span></span>[] data)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Unserializes the internal state.</span>
+            </div></li>
+          <li class="method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">void</span> <b><a href="Retro.Core.cheat_reset.html" class="method">cheat_reset</a></b> ()
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Resets the cheats.</span>
+            </div></li>
+          <li class="method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">void</span> <b><a href="Retro.Core.cheat_set.html" class="method">cheat_set</a></b> (<span class="main_basic_type"><span class="struct">uint</span></span> index, <span class="main_basic_type"><span class="struct">bool</span></span> enabled, <span class="main_basic_type"><span class="class">string</span></span> code)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Sets a new cheat.</span>
+            </div></li>
+          <li class="method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="struct">bool</span></span> <b><a href="Retro.Core.load_game.html" class="method">load_game</a></b> (<span class="main_type"><a href="Retro.GameInfo.html" class="struct">GameInfo</a></span> game)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Load. a game.</span>
+            </div></li>
+          <li class="method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="struct">bool</span></span> <b><a href="Retro.Core.load_game_special.html" class="method">load_game_special</a></b> (<span class="main_type"><a href="Retro.GameType.html" class="enum">GameType</a></span> game_type, <span class="main_type"><a href="Retro.GameInfo.html" class="struct">GameInfo</a></span>[] info)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Loads a "special" kind of game. Should not be used except in extreme 
+                cases.</span>
+            </div></li>
+          <li class="method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">void</span> <b><a href="Retro.Core.unload_game.html" class="method">unload_game</a></b> ()
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Unloads a currently loaded game.</span>
+            </div></li>
+          <li class="method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="struct">uint8</span></span>[] <b><a href="Retro.Core.get_memory.html" class="method">get_memory</a></b> (<span class="main_type"><a href="Retro.MemoryType.html" class="enum">MemoryType</a></span> id)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Gets a region of memory.</span>
+            </div></li>
+        </ul>
+        <h3 class="main_title">Signals:</h3>
+        <ul class="navi_inline">
+          <li class="signal"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">signal</span> <span class="main_basic_type"><span class="struct">bool</span></span> <b><a href="Retro.Core.shutdown.html" class="signal">shutdown</a></b> ()
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Asks the frontend to shut down.</span>
+            </div></li>
+          <li class="signal"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">signal</span> <span class="main_basic_type"><span class="struct">bool</span></span> <b><a href="Retro.Core.message.html" class="signal">message</a></b> (<span class="main_basic_type"><span class="class">string</span></span> message, <span class="main_basic_type"><span class="struct">uint</span></span> frames)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Asks the frontend to display a message for an amount of frames.</span>
+            </div></li>
+        </ul>
+        <h3 class="main_title">Inherited Members:</h3>
+        <div class="box">
+          <div class="headline">
+            <div class="text">All known members inherited from class GLib.Object</div>
+            <div class="toggle">
+              <img onclick="toggle_box  (this, 'box-content-0')" src="../coll_open.png">&nbsp;</div>
+            </div>
+            <div class="content" id="box-content-0">
+              <div class="column">
+                <ul class="navi_inline">
+                  <li class="static_method">@new</li>
+                  <li class="static_method">newv</li>
+                  <li class="static_method">new_valist</li>
+                  <li class="method">get_type</li>
+                  <li class="method">get_class</li>
+                  <li class="method">@ref</li>
+                  <li class="method">unref</li>
+                  <li class="method">ref_sink</li>
+                  <li class="method">weak_ref</li>
+                  <li class="method">weak_unref</li>
+                  <li class="method">add_weak_pointer</li>
+                  <li class="method">remove_weak_pointer</li>
+                </ul>
+              </div>
+              <div class="column">
+                <ul class="navi_inline">
+                  <li class="method">@get</li>
+                  <li class="method">@set</li>
+                  <li class="method">get_property</li>
+                  <li class="method">set_property</li>
+                  <li class="method">get_data</li>
+                  <li class="method">set_data</li>
+                  <li class="method">set_data_full</li>
+                  <li class="method">steal_data</li>
+                  <li class="method">get_qdata</li>
+                  <li class="method">set_qdata</li>
+                  <li class="method">set_qdata_full</li>
+                  <li class="method">steal_qdata</li>
+                </ul>
+              </div>
+              <div class="column">
+                <ul class="navi_inline">
+                  <li class="method">freeze_notify</li>
+                  <li class="method">thaw_notify</li>
+                  <li class="virtual_method">dispose</li>
+                  <li class="virtual_method">constructed</li>
+                  <li class="method">notify_property</li>
+                  <li class="method">connect</li>
+                  <li class="method">disconnect</li>
+                  <li class="method">add_toggle_ref</li>
+                  <li class="method">remove_toggle_ref</li>
+                  <li class="method">bind_property</li>
+                  <li class="signal">notify</li>
+                  <li class="field">ref_count</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><br/>
+      <div class="site_footer">Generated by <a href="http://www.valadoc.org/">Valadoc</a>
+      </div>
+    </body>
+  </html>

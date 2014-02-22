@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Retro.GameInfo &ndash; retro-gobject &ndash; Vala Binding Reference</title>
+    <link href="../style.css" rel="stylesheet" type="text/css"/><script src="../scripts.js" type="text/javascript">
+    </script>
+  </head>
+  <body>
+    <div class="site_header">Retro.GameInfo &ndash; retro-gobject Reference Manual</div>
+    <div class="site_body">
+      <div class="site_navigation">
+        <ul class="navi_main">
+          <li class="package_index"><a href="../index.html">Packages</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="package"><a href="index.htm">retro-gobject</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="namespace"><a href="Retro.html">Retro</a></li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="struct">GameInfo</li>
+        </ul>
+        <hr class="navi_hr"/>
+        <ul class="navi_main">
+          <li class="creation_method"><a href="Retro.GameInfo.GameInfo.html">GameInfo</a></li>
+          <li class="creation_method"><a href="Retro.GameInfo.GameInfo.with_data.html">GameInfo.with_data</a></li>
+          <li class="field"><a href="Retro.GameInfo.data.html">data</a></li>
+          <li class="field"><a href="Retro.GameInfo.meta.html">meta</a></li>
+          <li class="field"><a href="Retro.GameInfo.path.html">path</a></li>
+        </ul>
+      </div>
+      <div class="site_content">
+        <h1 class="main_title">GameInfo</h1>
+        <hr class="main_hr"/>
+        <h2 class="main_title">Object Hierarchy:</h2>
+        <img class="main_diagram" usemap="#Retro.GameInfo" alt="Object hierarchy for GameInfo" src="img/Retro.GameInfo.png"/>
+
+      <map id="Retro.GameInfo" name="Retro.GameInfo">
+<area shape="rect" id="node1" href="Retro.GameInfo.html" title="Retro.GameInfo" alt="" coords="5,5,147,53"/>
+</map>
+
+        <h2 class="main_title">Description:</h2>
+        <div class="main_code_definition"><span class="main_keyword">public</span> <span class="main_keyword">struct</span> <b><span class="struct">GameInfo</span></b>
+        </div>
+        <div class="description">
+          <p>Stores information on a game.</p>
+          <p>Used by a <a href="Retro.Core.html" class="class">Core</a> to load a game.</p>
+          <p>If the core needs a full path to the game file, then it doesn't need the data as it will load it itself: use the default constructor.</p>
+          <p>If the store doesn't need a full path, the path still be saved as some implementations still need it, and the file will be read and 
+            stored into the data field.</p>
+        </div><br/>
+        <div class="namespace_note"><b>Namespace:</b> <a href="Retro.html">Retro</a>
+        </div>
+        <div class="package_note"><b>Package:</b> <a href="index.htm">retro-gobject</a>
+        </div>
+        <h2 class="main_title">Content:</h2>
+        <h3 class="main_title">Creation methods:</h3>
+        <ul class="navi_inline">
+          <li class="creation_method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <b><a href="Retro.GameInfo.GameInfo.html" class="creation_method">GameInfo</a></b> (<span class="main_basic_type"><span class="class">string</span></span> file_name)
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Sets from a game file name.</span>
+            </div></li>
+          <li class="creation_method"><span class="leaf_code_definition"><span class="main_keyword">public</span> <b><a href="Retro.GameInfo.GameInfo.with_data.html" class="creation_method">GameInfo.with_data</a></b> (<span class="main_basic_type"><span class="class">string</span></span> file_name) <span class="main_keyword">throws</span> <span class="main_type"><span class="errordomain">FileError</span></span>
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Sets from a game file name.</span>
+            </div></li>
+        </ul>
+        <h3 class="main_title">Fields:</h3>
+        <ul class="navi_inline">
+          <li class="field"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="class">string</span></span> <b><a href="Retro.GameInfo.path.html" class="field">path</a></b>
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Path to game, UTF-8 encoded.</span>
+            </div></li>
+          <li class="field"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="struct">uint8</span></span>[] <b><a href="Retro.GameInfo.data.html" class="field">data</a></b>
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">Memory buffer of loaded game.</span>
+            </div></li>
+          <li class="field"><span class="leaf_code_definition"><span class="main_keyword">public</span> <span class="main_basic_type"><span class="class">string</span></span> <b><a href="Retro.GameInfo.meta.html" class="field">meta</a></b>
+            </span>
+            <div class="leaf_brief_description"><span class="brief_description">String of implementation specific meta-data.</span>
+            </div></li>
+        </ul>
+      </div>
+    </div><br/>
+    <div class="site_footer">Generated by <a href="http://www.valadoc.org/">Valadoc</a>
+    </div>
+  </body>
+</html>
